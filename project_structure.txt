@@ -1,0 +1,166 @@
+Folder PATH listing for volume New Volume
+Volume serial number is FC08-7C56
+F:.
+¦   badge_report.txt
+¦   folder_finale.txt
+¦   folder_lst.txt
+¦   folder_str.txt
+¦   folder_stru.txt
+¦   folder_stru1.txt
+¦   folder_structure.txt
+¦   pom.xml
+¦   postgresql-42.7.3.jar
+¦   project_structure.txt
+¦   
++---.vscode
+¦       settings.json
+¦       
++---exception
++---lib
+¦       spring-aop-5.3.34.jar
+¦       spring-beans-5.3.34.jar
+¦       spring-context-5.3.34.jar
+¦       spring-core-5.3.34.jar
+¦       spring-expression-5.3.34.jar
+¦       spring-jcl-5.3.34.jar
+¦       spring-web-5.3.34.jar
+¦       
++---model
++---service
++---src
+¦   +---main
+¦   ¦   +---java
+¦   ¦   ¦   +---com
+¦   ¦   ¦   ¦   +---skillbadge
+¦   ¦   ¦   ¦       ¦   SkillBadgeApplication.java
+¦   ¦   ¦   ¦       ¦   
+¦   ¦   ¦   ¦       +---config
+¦   ¦   ¦   ¦       +---controller
+¦   ¦   ¦   ¦       ¦       BadgeController.java
+¦   ¦   ¦   ¦       ¦       StudentController.java
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---dao
+¦   ¦   ¦   ¦       ¦       BadgeDAO.java
+¦   ¦   ¦   ¦       ¦       StudentDAO.java
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---exception
+¦   ¦   ¦   ¦       ¦       EmptyFieldException.java
+¦   ¦   ¦   ¦       ¦       InvalidRankException.java
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---model
+¦   ¦   ¦   ¦       ¦       SBadge.java
+¦   ¦   ¦   ¦       ¦       Student.java
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---service
+¦   ¦   ¦   ¦       ¦       BadgeAssigner.java
+¦   ¦   ¦   ¦       ¦       BadgeService.java
+¦   ¦   ¦   ¦       ¦       BaseBadgeAssigner.java
+¦   ¦   ¦   ¦       ¦       CodingBadgeAssigner.java
+¦   ¦   ¦   ¦       ¦       SportsBadgeAssigner.java
+¦   ¦   ¦   ¦       ¦       StudentService.java
+¦   ¦   ¦   ¦       ¦       
+¦   ¦   ¦   ¦       +---util
+¦   ¦   ¦   ¦               BadgeLogger.java
+¦   ¦   ¦   ¦               FileLogger.java
+¦   ¦   ¦   ¦               
+¦   ¦   ¦   +---Webapp
+¦   ¦   ¦       +---WEB-INF
+¦   ¦   +---resources
+¦   ¦           application.properties
+¦   ¦           
+¦   +---test
+¦       +---java
+¦       ¦   +---com
+¦       ¦       +---skillbadge
+¦       ¦           +---dao
+¦       ¦           ¦       StudentDAOTest.java
+¦       ¦           ¦       
+¦       ¦           +---service
+¦       ¦                   BadgeServiceTest.java
+¦       ¦                   CodingBadgeAssignerTest.java
+¦       ¦                   
+¦       +---resources
+¦               application-test.properties
+¦               
++---target
+¦   ¦   skillbadge-1.0-SNAPSHOT.jar
+¦   ¦   skillbadge-1.0-SNAPSHOT.jar.original
+¦   ¦   
+¦   +---classes
+¦   ¦   ¦   application.properties
+¦   ¦   ¦   
+¦   ¦   +---com
+¦   ¦   ¦   +---skillbadge
+¦   ¦   ¦       ¦   SkillBadgeApplication.class
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---config
+¦   ¦   ¦       +---controller
+¦   ¦   ¦       ¦       BadgeController.class
+¦   ¦   ¦       ¦       StudentController.class
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---dao
+¦   ¦   ¦       ¦       BadgeDAO.class
+¦   ¦   ¦       ¦       StudentDAO.class
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---exception
+¦   ¦   ¦       ¦       EmptyFieldException.class
+¦   ¦   ¦       ¦       InvalidRankException.class
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---model
+¦   ¦   ¦       ¦       SBadge.class
+¦   ¦   ¦       ¦       Student.class
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---service
+¦   ¦   ¦       ¦       BadgeAssigner.class
+¦   ¦   ¦       ¦       BadgeService.class
+¦   ¦   ¦       ¦       BaseBadgeAssigner.class
+¦   ¦   ¦       ¦       CodingBadgeAssigner.class
+¦   ¦   ¦       ¦       SportsBadgeAssigner.class
+¦   ¦   ¦       ¦       StudentService.class
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---util
+¦   ¦   ¦               BadgeLogger.class
+¦   ¦   ¦               FileLogger.class
+¦   ¦   ¦               
+¦   ¦   +---Webapp
+¦   +---generated-sources
+¦   ¦   +---annotations
+¦   +---generated-test-sources
+¦   ¦   +---test-annotations
+¦   +---maven-archiver
+¦   ¦       pom.properties
+¦   ¦       
+¦   +---maven-status
+¦   ¦   +---maven-compiler-plugin
+¦   ¦       +---compile
+¦   ¦       ¦   +---default-compile
+¦   ¦       ¦           createdFiles.lst
+¦   ¦       ¦           inputFiles.lst
+¦   ¦       ¦           
+¦   ¦       +---testCompile
+¦   ¦           +---default-testCompile
+¦   ¦                   createdFiles.lst
+¦   ¦                   inputFiles.lst
+¦   ¦                   
+¦   +---surefire-reports
+¦   ¦       2025-08-01T10-24-26_128.dumpstream
+¦   ¦       com.skillbadge.dao.StudentDAOTest.txt
+¦   ¦       com.skillbadge.service.BadgeServiceTest.txt
+¦   ¦       com.skillbadge.service.CodingBadgeAssignerTest.txt
+¦   ¦       TEST-com.skillbadge.dao.StudentDAOTest.xml
+¦   ¦       TEST-com.skillbadge.service.BadgeServiceTest.xml
+¦   ¦       TEST-com.skillbadge.service.CodingBadgeAssignerTest.xml
+¦   ¦       
+¦   +---test-classes
+¦       ¦   application-test.properties
+¦       ¦   
+¦       +---com
+¦           +---skillbadge
+¦               +---dao
+¦               ¦       StudentDAOTest.class
+¦               ¦       
+¦               +---service
+¦                       BadgeServiceTest.class
+¦                       CodingBadgeAssignerTest.class
+¦                       
++---util
